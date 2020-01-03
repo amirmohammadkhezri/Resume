@@ -51,6 +51,19 @@ class Resume extends Component {
                             تحصیلات
                           </h2>
                           <div className="timeline">
+                            
+                            <article className="timeline__item">
+                              <h5 className="title title--h5 timeline__title">
+                                دوره کارشناسی دانشگاه شهید منتظری مشهد
+                              </h5>
+                              <span className="timeline__period">
+                              1393-1396
+                              </span>
+                              <p className="timeline__description">
+                                فارغ التحصیل رشته تکنولوژی الکترونیک
+                              </p>
+                            </article>
+
                             <article className="timeline__item">
                               <h5 className="title title--h5 timeline__title">
                                 دوره کاردانی دانشگاه شهید منتظری مشهد{' '}
@@ -65,26 +78,13 @@ class Resume extends Component {
 
                             <article className="timeline__item">
                               <h5 className="title title--h5 timeline__title">
-                                دوره کارشناسی دانشگاه شهید منتظری مشهد
+                                هنرستان فنی حرفه ای{' '}
                               </h5>
                               <span className="timeline__period">
-                                1393 — 1395
+                                1389 — 1391
                               </span>
                               <p className="timeline__description">
-                                فارغ التحصیل رشته تکنولوژی الکترونیک
-                              </p>
-                            </article>
-
-                            <article className="timeline__item">
-                              <h5 className="title title--h5 timeline__title">
-                                دبیرستان هنر و طراحی
-                              </h5>
-                              <span className="timeline__period">
-                                1390 — 1392
-                              </span>
-                              <p className="timeline__description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                                صنعت چاپ و با استفاده از طراحان گرافیک است.{' '}
+                                دیپلم رشته تحصیلی الکترونیک
                               </p>
                             </article>
                           </div>
@@ -108,8 +108,7 @@ class Resume extends Component {
                                 1397 — اکنون
                               </span>
                               <p className="timeline__description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                                صنعت چاپ و با استفاده از طراحان گرافیک است.{' '}
+                             برنامه نویس php و تسلط کامل به فریم ورک لاراول
                               </p>
                             </article>
 
@@ -118,11 +117,10 @@ class Resume extends Component {
                                 برنامه نویس سمت کاربر - FrontEnd Developer{' '}
                               </h5>
                               <span className="timeline__period">
-                                1395 — 1397
+                                1396 — 1397
                               </span>
                               <p className="timeline__description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                                صنعت چاپ و با استفاده از طراحان گرافیک است.{' '}
+                               برنامه نویسی html css Javascript
                               </p>
                             </article>
 
@@ -131,11 +129,10 @@ class Resume extends Component {
                                 مهندس الکترونیک - Electronic Engineer
                               </h5>
                               <span className="timeline__period">
-                                1390 — 1395
+                                1391 — 1396
                               </span>
                               <p className="timeline__description">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
-                                صنعت چاپ و با استفاده از طراحان گرافیک است.{' '}
+                                طراحی و برنامه نویسی و ساخت مدارات الکترونیکی و هوشمند سازی IOT
                               </p>
                             </article>
                           </div>
@@ -158,7 +155,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Laravel</span>
-                                  <span>80%</span>
+                                  <span>85%</span>
                                 </div>
                               </div>
                             </div>
@@ -173,7 +170,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Php</span>
-                                  <span>78%</span>
+                                  <span>80%</span>
                                 </div>
                               </div>
                             </div>
@@ -188,7 +185,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>OOP</span>
-                                  <span>65%</span>
+                                  <span>70%</span>
                                 </div>
                               </div>
                             </div>
@@ -203,7 +200,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>MVC</span>
-                                  <span>80%</span>
+                                  <span>75%</span>
                                 </div>
                               </div>
                             </div>
@@ -217,8 +214,8 @@ class Resume extends Component {
                                 aria-valuemax="100"
                               >
                                 <div className="progress-text">
-                                  <span>Node.js</span>
-                                  <span>50%</span>
+                                  <span>Unit Test</span>
+                                  <span>60%</span>
                                 </div>
                               </div>
                             </div>
@@ -233,7 +230,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Api</span>
-                                  <span>60%</span>
+                                  <span>75%</span>
                                 </div>
                               </div>
                             </div>
@@ -278,7 +275,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Design Patern</span>
-                                  <span>50%</span>
+                                  <span>65%</span>
                                 </div>
                               </div>
                             </div>
@@ -293,7 +290,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Git</span>
-                                  <span>65%</span>
+                                  <span>85%</span>
                                 </div>
                               </div>
                             </div>
@@ -343,7 +340,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Javascript</span>
-                                  <span>80%</span>
+                                  <span>70%</span>
                                 </div>
                               </div>
                             </div>
@@ -358,7 +355,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>React</span>
-                                  <span>77%</span>
+                                  <span>65%</span>
                                 </div>
                               </div>
                             </div>
@@ -376,7 +373,7 @@ class Resume extends Component {
                               >
                                 <div className="progress-text">
                                   <span>Language English</span>
-                                  <span>46%</span>
+                                  <span>50%</span>
                                 </div>
                               </div>
                             </div>
