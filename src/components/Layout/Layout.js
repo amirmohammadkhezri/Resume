@@ -21,21 +21,21 @@ const Layout = props => (
           <div className="social">
             <a
               className="social__link"
-              href="https://www.facebook.com/AmirMohammadKhezri"
+              href="https://github.com/amirmohammadkhezri"
             >
-              <i className="font-icon icon-facebook"></i>
+              <i className="font-icon icon-github"></i>
             </a>
             <a
               className="social__link"
-              href="https://www.behance.com/AmirMohammadKhezri"
-            >
-              <i className="font-icon icon-twitter"></i>
-            </a>
-            <a
-              className="social__link"
-              href="https://www.linkedin.com/AmirMohammadKhezri"
+              href="https://www.linkedin.com/in/amir-mohammad-khezri-6b819a19b"
             >
               <i className="font-icon icon-linkedin2"></i>
+            </a>
+            <a
+              className="social__link"
+              href="https://www.instagram.com/armin__khezri/"
+            >
+              <i className="font-icon icon-instagram"></i>
             </a>
           </div>
         </div>

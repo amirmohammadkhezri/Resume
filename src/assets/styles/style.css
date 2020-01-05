@@ -2719,3 +2719,6 @@ img {
   border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
+a.btn.btn--blue-gradient {
+  background-image: linear-gradient( to right, #0045ff 0%, #0045ff 50%, #0045ffe0 100% );
+}
