@@ -103,7 +103,7 @@ class about extends Component {
                             />
                             <div>
                               <h3 className="title title--h5">
-                                طراحی و صفر تا صد سایت های Php و Node.Js
+                                طراحی صفر تا صد سایت های اختصاصی
                               </h3>
                               <p className="case-item__caption">
                                 یک وب ‌سایت زیبا و کارآمد برای کسب و کار خود
@@ -113,7 +113,6 @@ class about extends Component {
                             </div>
                           </div>
                         </div>
-
                         <div className="col-12 col-lg-6">
                           <div className="case-item box box__second">
                             <img
@@ -123,16 +122,14 @@ class about extends Component {
                             />
                             <div>
                               <h3 className="title title--h5">
-                                برنامه های موبایل Android و iOS{' '}
+                                طراحی سیستم های اتوماسیون اداری
                               </h3>
                               <p className="case-item__caption">
-                                با استفاده از بروز ترین زبان های برنامه نویسی
-                                ReactNative
+                              با استفاده از بروزترین زبان های برنامه نویسی و استفاده از پروتکل های امنیتی جهانی
                               </p>
                             </div>
                           </div>
                         </div>
-
                         <div className="col-12 col-lg-6">
                           <div className="case-item box box__second">
                             <img
@@ -142,11 +139,10 @@ class about extends Component {
                             />
                             <div>
                               <h3 className="title title--h5">
-                                پلاگین نویسی وردپرس و ووکامرس
+                                طراحی سایت های شرکتی
                               </h3>
                               <p className="case-item__caption">
-                                وب سایت خود را ارتقا دهید! با پلاگین اختصاصی هر
-                                قابلیت و سیستمی را به وب سایت خود اضافه کنید.
+                              برای شرکت خود وب سایتی داشته باشید که در وحله اول اعتماد ببنده رو جلب کنید
                               </p>
                             </div>
                           </div>
