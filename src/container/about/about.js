@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from '../../hoc/Wrapper';
 import { Link } from 'react-router-dom';
 import Layout from '../../components/Layout/Layout';
+import Footer from '../../components/Layout/Footer';
 
 // صفحه درباره ما
 
@@ -76,7 +77,7 @@ class about extends Component {
                         <div className="col-12 col-lg-6">
                           <div className="case-item box box__second">
                             <img
-                              src={require('../../assets/icons/icon-design.svg')}
+                              src={require('../../assets/icons/icon-dev.svg')}
                               className="case-item__icon"
                               alt=""
                             />
@@ -117,7 +118,7 @@ class about extends Component {
                           <div className="case-item box box__second">
                             <img
                               className="case-item__icon"
-                              src={require('../../assets/icons/icon-app.svg')}
+                              src={require('../../assets/icons/icon-dev.svg')}
                               alt=""
                             />
                             <div>
@@ -125,7 +126,8 @@ class about extends Component {
                                 طراحی سیستم های اتوماسیون اداری
                               </h3>
                               <p className="case-item__caption">
-                              با استفاده از بروزترین زبان های برنامه نویسی و استفاده از پروتکل های امنیتی جهانی
+                                با استفاده از بروزترین زبان های برنامه نویسی و
+                                استفاده از پروتکل های امنیتی جهانی
                               </p>
                             </div>
                           </div>
@@ -134,7 +136,7 @@ class about extends Component {
                           <div className="case-item box box__second">
                             <img
                               className="case-item__icon"
-                              src={require('../../assets/icons/icon-photo.svg')}
+                              src={require('../../assets/icons/icon-dev.svg')}
                               alt=""
                             />
                             <div>
@@ -142,7 +144,8 @@ class about extends Component {
                                 طراحی سایت های شرکتی
                               </h3>
                               <p className="case-item__caption">
-                              برای شرکت خود وب سایتی داشته باشید که در وحله اول اعتماد ببنده رو جلب کنید
+                                برای شرکت خود وب سایتی داشته باشید که در وحله
+                                اول اعتماد ببنده رو جلب کنید
                               </p>
                             </div>
                           </div>
@@ -150,7 +153,7 @@ class about extends Component {
                       </div>
                     </div>
                   </div>
-                  <footer className="footer">© 2019 AmirMohammadKhezri</footer>
+                  <Footer />
                 </div>
               </div>
             </div>

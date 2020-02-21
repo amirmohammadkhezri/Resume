@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from '../../hoc/Wrapper';
 import { Link } from 'react-router-dom';
 import Layout from '../../components/Layout/Layout';
+import Footer from '../../components/Layout/Footer';
 
 // صفحه نمونه کار شماره 3
 
@@ -68,10 +69,7 @@ class Singlepost3 extends Component {
                           />
                         </p>
                       </div>
-
-                      <footer className="footer">
-                        © 2019 AmirMohammadKhezri
-                      </footer>
+                      <Footer />
                     </div>
                   </div>
                 </div>

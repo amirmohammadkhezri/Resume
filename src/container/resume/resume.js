@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from '../../hoc/Wrapper';
 import { Link } from 'react-router-dom';
 import Layout from '../../components/Layout/Layout';
+import Footer from '../../components/Layout/Footer';
 
 // صفحه رزومه
 
@@ -51,13 +52,12 @@ class Resume extends Component {
                             تحصیلات
                           </h2>
                           <div className="timeline">
-                            
                             <article className="timeline__item">
                               <h5 className="title title--h5 timeline__title">
                                 دوره کارشناسی دانشگاه شهید منتظری مشهد
                               </h5>
                               <span className="timeline__period">
-                              1393-1396
+                                1393-1396
                               </span>
                               <p className="timeline__description">
                                 فارغ التحصیل رشته تکنولوژی الکترونیک
@@ -108,19 +108,19 @@ class Resume extends Component {
                                 1397 — اکنون
                               </span>
                               <p className="timeline__description">
-                             برنامه نویس php و تسلط کامل به فریم ورک لاراول
+                                برنامه نویس php و تسلط کامل به فریم ورک لاراول
                               </p>
                             </article>
 
                             <article className="timeline__item">
                               <h5 className="title title--h5 timeline__title">
-                                برنامه نویس سمت کاربر - FrontEnd Developer{' '}
+                                برنامه نویس هوش مصنوعی - Artificial Intelligence{' '}
                               </h5>
                               <span className="timeline__period">
                                 1396 — 1397
                               </span>
                               <p className="timeline__description">
-                               برنامه نویسی html css Javascript
+                                پیاده سازی با استفاده از زبان python
                               </p>
                             </article>
 
@@ -132,7 +132,8 @@ class Resume extends Component {
                                 1391 — 1396
                               </span>
                               <p className="timeline__description">
-                                طراحی و برنامه نویسی و ساخت مدارات الکترونیکی و هوشمند سازی IOT
+                                طراحی و برنامه نویسی و ساخت مدارات الکترونیکی و
+                                هوشمند سازی اماکن (IOT)
                               </p>
                             </article>
                           </div>
@@ -427,8 +428,7 @@ class Resume extends Component {
                       </div>
                     </div>
                   </div>
-
-                  <footer className="footer">© 2019 AmirMohammadKhezri</footer>
+                  <Footer />
                 </div>
               </div>
             </div>

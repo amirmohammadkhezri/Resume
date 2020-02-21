@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Wrapper from '../../hoc/Wrapper';
 import { Link } from 'react-router-dom';
 import Layout from '../../components/Layout/Layout';
+import Footer from '../../components/Layout/Footer';
 
 // صفحه تماس با ما
 
@@ -49,6 +50,9 @@ class about extends Component {
                       id="contact-form"
                       className="contact-form"
                       data-toggle="validator"
+                      action="mailto:amir.mohammad.khezri@gmail.com"
+                      method="post"
+                      enctype="text/plain"
                     >
                       <div className="row">
                         <div className="form-group col-12 col-md-6">
@@ -99,8 +103,7 @@ class about extends Component {
                       </div>
                     </form>
                   </div>
-
-                  <footer className="footer">© 2019 AmirMohammadKhezri</footer>
+                  <Footer />
                 </div>
               </div>
             </div>

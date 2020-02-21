@@ -80,7 +80,7 @@ const Layout = props => (
           </ul>
           <a
             className="btn btn--blue-gradient"
-            href={require('../../assets/img/resume.pdf')}
+            href={require('../../assets/img/backend_khezri.pdf')}
             download
           >
             <i className="font-icon icon-download"></i> دانلود رزومه
