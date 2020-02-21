@@ -909,15 +909,13 @@ iframe {
   .nav {
     border-radius: 15px;
     font-size: 0.875rem;
- 
   }
 }
 @media only screen and (max-width: 768px) {
-li.nav__item{
+  li.nav__item {
     padding: 1px;
     margin: 17px;
     display: unset;
- 
   }
 }
 
@@ -927,12 +925,12 @@ li.nav__item{
     -ms-flex-direction: column;
     flex-direction: column;
     color: #44566c;
-line-height:10px;
+    line-height: 10px;
     background-image: none;
     border-radius: 0;
     box-shadow: none;
     font-size: 1.5rem;
-	border-bottom-style: hidden;
+    border-bottom-style: hidden;
   }
 }
 .nav__item {
@@ -959,21 +957,20 @@ line-height:10px;
 }
 @media only screen and (max-width: 580px) {
   .nav__item a {
-color: #666;
+    color: #666;
   }
   .nav__item a:hover {
     color: #0045ff;
   }
 }
 .nav__item a.active {
-  border-bottom-style: dashed;
   border-bottom-color: #e7ffff;
   color: #fff;
 }
 @media only screen and (max-width: 580px) {
   .nav__item a.active {
-	border-bottom-style: hidden;
-	color: #1189ff;
+    border-bottom-style: hidden;
+    color: #1189ff;
   }
 }
 .nav__item:last-child {
@@ -1284,7 +1281,6 @@ color: #666;
   border-width: 0 0.3rem 0.3rem;
   border-bottom-color: #44566c;
 }
-
 
 /* -----------------------------------------------------------------
     - Sidebar
@@ -2517,87 +2513,87 @@ color: #666;
   border-radius: 1px;
   height: 100%;
 }
-.progress1{
+.progress1 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 85%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress2{
+.progress2 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 80%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress3{
+.progress3 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 70%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress4{
+.progress4 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 75%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress5{
+.progress5 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 60%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress6{
+.progress6 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 75%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress7{
+.progress7 {
   background-color: #004bff;
   border-radius: 1rem;
   width: 80%;
-  color:#fff;
+  color: #fff;
   height: 1.5rem;
   margin-bottom: 1.5rem;
   overflow: inherit;
   position: relative;
   text-align: right;
 }
-.progress8{
+.progress8 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 60%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2605,10 +2601,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress9{
+.progress9 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 65%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2616,10 +2612,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress10{
+.progress10 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 85%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2627,10 +2623,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress11{
+.progress11 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 40%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2638,10 +2634,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress12{
+.progress12 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 50%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2649,10 +2645,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress13{
+.progress13 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 70%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2660,10 +2656,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress14{
+.progress14 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 65%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2671,10 +2667,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress15{
+.progress15 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#ffffff;
+  color: #ffffff;
   width: 50%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2682,10 +2678,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress16{
+.progress16 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 78%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2693,10 +2689,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress17{
+.progress17 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 43%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2704,10 +2700,10 @@ color: #666;
   position: relative;
   text-align: right;
 }
-.progress18{
+.progress18 {
   background-color: #004bff;
   border-radius: 1rem;
-  color:#fff;
+  color: #fff;
   width: 74%;
   height: 1.5rem;
   margin-bottom: 1.5rem;
@@ -2720,5 +2716,10 @@ img {
 }
 /*# sourceMappingURL=style.css.map */
 a.btn.btn--blue-gradient {
-  background-image: linear-gradient( to right, #0045ff 0%, #0045ff 50%, #0045ffe0 100% );
+  background-image: linear-gradient(
+    to right,
+    #0045ff 0%,
+    #0045ff 50%,
+    #0045ffe0 100%
+  );
 }

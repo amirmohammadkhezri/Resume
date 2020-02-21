@@ -46,18 +46,13 @@ class about extends Component {
                       </h1>
                     </div>
 
+                    {/* start section A */}
                     <div className="pb-0">
                       <div className="gallery-grid js-masonry js-filter-container">
                         <div className="gutter-sizer"></div>
                         <div className="select">
-                          <div
-                            className="gallery-grid js-masonry js-filter-container"
-                            // style="position: relative; height: 761.4px;"
-                          >
-                            <div
-                              className="gutter-sizer"
-                              // style="position: absolute; left: 0px; top: 0px;"
-                            ></div>
+                          <div className="gallery-grid js-masonry js-filter-container">
+                            <div className="gutter-sizer"></div>
                             <figure className="gallery-grid__item category-concept">
                               <div className="gallery-grid__image-wrap">
                                 <Link to="/singlepost">
@@ -71,15 +66,12 @@ class about extends Component {
                               </div>
                               <figcaption className="gallery-grid__caption">
                                 <h4 className="title gallery-grid__title">
-                                  نمونه کار شماره 1
+                                  سلام نوتیفیکیشن
                                 </h4>
                               </figcaption>
                             </figure>
-
-                            <div
-                              className="gutter-sizer"
-                              // style="position: absolute; left: 0px; top: 0px;"
-                            ></div>
+                            {/* end portfolio hello notification */}
+                            <div className="gutter-sizer"></div>
                             <figure className="gallery-grid__item category-concept">
                               <div className="gallery-grid__image-wrap">
                                 <Link to="/singlepost2">
@@ -93,15 +85,13 @@ class about extends Component {
                               </div>
                               <figcaption className="gallery-grid__caption">
                                 <h4 className="title gallery-grid__title">
-                                  نمونه کار شماره 2
+                                  یاراپلاس
                                 </h4>
                               </figcaption>
                             </figure>
+                            {/* end portfolio yarapluse */}
 
-                            <div
-                              className="gutter-sizer"
-                              // style="position: absolute; left: 0px; top: 0px;"
-                            ></div>
+                            <div className="gutter-sizer"></div>
                             <figure className="gallery-grid__item category-concept">
                               <div className="gallery-grid__image-wrap">
                                 <Link to="/singlepost3">
@@ -115,7 +105,7 @@ class about extends Component {
                               </div>
                               <figcaption className="gallery-grid__caption">
                                 <h4 className="title gallery-grid__title">
-                                  نمونه کار شماره 3
+                                  اسپاتیفای گیفت کارت
                                 </h4>
                               </figcaption>
                             </figure>
@@ -123,6 +113,78 @@ class about extends Component {
                         </div>
                       </div>
                     </div>
+                    {/* end portfolio spotify Gift Card */}
+
+                    {/* end section A */}
+                    {/* start section B */}
+                    <div className="pb-0">
+                      <div className="gallery-grid js-masonry js-filter-container">
+                        <div className="gutter-sizer"></div>
+                        <div className="select">
+                          <div className="gallery-grid js-masonry js-filter-container">
+                            <div className="gutter-sizer"></div>
+                            <figure className="gallery-grid__item category-concept">
+                              <div className="gallery-grid__image-wrap">
+                                <Link to="/singlepost4">
+                                  <img
+                                    src={require('../../assets/images/azin-demo.png')}
+                                    className="gallery-grid__image cover lazyload"
+                                    data-zoom
+                                    alt=""
+                                  />
+                                </Link>
+                              </div>
+                              <figcaption className="gallery-grid__caption">
+                                <h4 className="title gallery-grid__title">
+                                  شرکت آذین قالب
+                                </h4>
+                              </figcaption>
+                            </figure>
+                            {/* end portfolio hello notification */}
+                            <div className="gutter-sizer"></div>
+                            <figure className="gallery-grid__item category-concept">
+                              <div className="gallery-grid__image-wrap">
+                                <Link to="/singlepost5">
+                                  <img
+                                    src={require('../../assets/images/mahan-demo.png')}
+                                    className="gallery-grid__image cover lazyload"
+                                    data-zoom
+                                    alt=""
+                                  />
+                                </Link>
+                              </div>
+                              <figcaption className="gallery-grid__caption">
+                                <h4 className="title gallery-grid__title">
+                                  گروه بین الملل ماهان ایرانیان
+                                </h4>
+                              </figcaption>
+                            </figure>
+                            {/* end portfolio yarapluse */}
+
+                            <div className="gutter-sizer"></div>
+                            <figure className="gallery-grid__item category-concept">
+                              <div className="gallery-grid__image-wrap">
+                                <Link to="/singlepost6">
+                                  <img
+                                    src={require('../../assets/images/maghsoud-art-demo.png')}
+                                    className="gallery-grid__image cover lazyload"
+                                    data-zoom
+                                    alt=""
+                                  />
+                                </Link>
+                              </div>
+                              <figcaption className="gallery-grid__caption">
+                                <h4 className="title gallery-grid__title">
+                                  شرکت آفرینشهای هنری
+                                </h4>
+                              </figcaption>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {/* end portfolio spotify Gift Card */}
+                    {/* end section B */}
                   </div>
                   <Footer />
                 </div>

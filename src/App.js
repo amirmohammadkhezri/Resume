@@ -7,6 +7,9 @@ import Contact from './container/Contact/contact';
 import Singlepost from './container/Singlepost/singlepost';
 import Singlepost2 from './container/Singlepost/singlepost2';
 import Singlepost3 from './container/Singlepost/singlepost3';
+import Singlepost4 from './container/Singlepost/singlepost4';
+import Singlepost5 from './container/Singlepost/singlepost5';
+import Singlepost6 from './container/Singlepost/singlepost6';
 import Wrapper from './hoc/Wrapper';
 import { Route, BrowserRouter as Router } from 'react-router-dom';
 import DarkModeToggle from './components/Theme/DarkModeToggle';
@@ -32,6 +35,9 @@ function App() {
         <Route path="/singlepost" exact component={Singlepost} />
         <Route path="/singlepost2" exact component={Singlepost2} />
         <Route path="/singlepost3" exact component={Singlepost3} />
+        <Route path="/singlepost4" exact component={Singlepost4} />
+        <Route path="/singlepost5" exact component={Singlepost5} />
+        <Route path="/singlepost6" exact component={Singlepost6} />
       </Router>
       {/* پایان مسیر های اصلی سیستم */}
     </Wrapper>
